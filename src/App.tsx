@@ -1,8 +1,14 @@
+
+import MainSections from 'components/MainSections';
 import './App.css';
-import NavBar from './components/NavBar';
 
 function App() {
-  return <NavBar />;
+  return(
+    <>
+      <MainSections />
+
+    </>
+  )
 }
 
 export default App;
