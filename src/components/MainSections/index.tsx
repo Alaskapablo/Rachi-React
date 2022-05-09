@@ -5,6 +5,7 @@ import perfilGroup from '../assets/images/group-perfil.svg';
 import SecurityGroup from '../assets/images/security-group.svg';
 import SmileGroup from '../assets/images/smile-group.svg';
 import DownloadIcon from '../assets/images/download-icon.svg';
+import BannerInput from '../assets/images/banner-input-section.png';
 
 const MainSections = () => {
   return (
@@ -40,14 +41,14 @@ const MainSections = () => {
                 <li className="group-item">
                   <div className="block-up-group">
                     <img src={SecurityGroup} alt="Icon profile"></img>
-                    <p>Crie conexões</p>
+                    <p>100% gratuito</p>
                     <span>Lorem ipsum dolor sit amet,consecteteu.</span>
                   </div>
                 </li>
                 <li className="group-item">
                   <div className="block-up-group">
                     <img src={SmileGroup} alt="Icon profile"></img>
-                    <p>Crie conexões</p>
+                    <p>Compartilhamento</p>
                     <span>Lorem ipsum dolor sit amet,consecteteu.</span>
                   </div>
                 </li>
@@ -126,7 +127,7 @@ const MainSections = () => {
                     <h3>Ouro</h3>
                     <div className="product-price__container--gold">
                       <span>R$</span>
-                      <h3>57</h3>
+                      <h3>94</h3>
                       <p>/mes</p>
                     </div>
                     <span className="product-card__description--gold">
@@ -140,6 +141,31 @@ const MainSections = () => {
             </ul>
           </div>
         </section>
+        <section className="five-section">
+          <div className="container contact-container">
+            <div className="block-up__contact">
+              <h3>Contato</h3>
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                lacinia mi quis euismod ultrices.
+              </span>
+            </div>
+            <div className="block-down__contact">
+              <input type={'email'} placeholder="Seu melhor e-mail"></input>
+              <button>Enviar</button>
+            </div>
+          </div>
+          <img
+            className="img-section__container"
+            src={BannerInput}
+            alt="banner desktop input"
+          ></img>
+        </section>
+        <footer className='footer'>
+          <div className='main-footer'>
+            <p>Rachi - Todos os direitos reservados</p>
+          </div>
+        </footer>
       </main>
     </>
   );
