@@ -10,10 +10,11 @@
 }
 .block-left__section {
   width: 100%;
-  display: contents;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .block-left__section h1 {
-  width: 280px;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -23,6 +24,7 @@
   color: #293145;
 }
 .block-left__section button {
+  width: 200px;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -366,6 +368,9 @@
   /* First Section */
   .container-first-section {
     align-items: center;
+  }
+  .block-left__section{
+    align-items: flex-start;
   }
   .block-left__section h1 {
     font-size: 35px;

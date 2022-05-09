@@ -1,5 +1,4 @@
 .header-container {
-  padding: 20px;
   height: 100%;
 }
 .nav-list {
@@ -15,21 +14,26 @@
   color: #6e7275;
   cursor: pointer;
 }
-.nav-item:not(:last-child) {
-  margin-right: 30px;
+
+@media (min-width: 576px) {
+    
+
 }
 
-@media (max-width: 576px) {
-    .nav-list{
-        text-align: center;
-    }
-    .nav-item{
-        margin-right: 0;
-        display: flex;
-        justify-content: center;
-    }
-    .block-nav__menu{
-        margin-top: 10px;
-    }
+@media (min-width: 768px) {
+  .nav-item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
 
+@media (min-width: 992px) {
+  .nav-item:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
